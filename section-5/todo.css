@@ -1,0 +1,12 @@
+body {
+  background: slategrey;
+}
+
+ul {
+  list-style: none;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
