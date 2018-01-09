@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1em;
+}
+
+div {
+  margin: 0 auto;
+  width: 25%;
+  border: 1px solid black;
+  padding: 25px;
+}
+
+h1 {
+  font-size: 1.6em;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+tr:nth-child(2) td {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black
+}
+
+tr td:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+}

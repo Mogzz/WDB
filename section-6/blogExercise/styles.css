@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#container {
+  width: 50%;
+  margin: 0 auto;
+  border: 15px slategrey solid;
+  padding: 20px;
+}
+
+article header h4 {
+  text-transform: uppercase;
+  font-weight: 100;
+  color: deepskyblue;
+  font-size: 0.8em;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
+article h2 {
+  font-size: 1.7em;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+article p:first-of-type {
+  border-left: 4px lightgrey solid;
+  padding-left: 10px;
+}
