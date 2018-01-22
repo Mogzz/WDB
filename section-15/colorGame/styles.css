@@ -1,0 +1,84 @@
+body {
+  background-color: #232323;
+  font-family: "Avenir", "Monsterrat", sans-serif;
+  margin: 0;
+}
+
+/* Container */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Headings */
+
+h1 {
+  color: white;
+  text-align: center;
+  background-color: steelblue;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 1.1;
+}
+
+h1 span {
+  font-size: 2em;
+}
+
+/* spans */
+
+#message {
+  display: inline-block;
+  width: 20%;
+}
+
+/* NAV */
+
+.nav {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+/* Styles for Squares */
+
+.square {
+  width: 30%;
+  margin: 1.66%;
+  background-color: purple;
+  padding-bottom: 30%;
+  float: left;
+  border-radius: 15%;
+  --moz-transition: background 0.2s;
+  --webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+/* BUTTONS */
+
+.selected {
+  background: steelblue;
+  color: white;
+}
+
+button {
+  border: none;
+  background: none;
+  height: 30px;
+  text-transform: uppercase;
+  color: steelblue;
+  font-weight: 700;
+  transition: all 0.3s;
+  outline: none;
+}
+
+button:hover {
+  background: steelblue;
+  color: white;
+  cursor: pointer;
+}
