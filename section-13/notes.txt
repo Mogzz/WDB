@@ -1,0 +1,5 @@
+getAttribute
+setAttribute("src", "http://....");
+
+
+
